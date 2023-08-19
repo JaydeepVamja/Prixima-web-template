@@ -1,0 +1,16 @@
+@media (max-width:767px) {
+
+    .prev_btn,
+    .next_btn {
+        display: none !important;
+    }
+}
+
+@media (max-width:992px) {
+
+    .banner .carousel-caption {
+        position: absolute;
+        top: 45%;
+        transform: translateY(-45%);
+    }
+}
